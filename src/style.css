@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     z-index: 999;
@@ -404,8 +405,7 @@ align-items: center;
     letter-spacing: -1px;
 }}
 .desc{
-    
-    border-radius: 8px 8px 8px 8px;
+    margin-top: 10px;
 }
 .section-cards{
     max-width: 1328px;
@@ -417,8 +417,10 @@ align-items: center;
     .container{
         width: 30%;
         text-align: center;
-        
-        box-shadow: 1px 5px 5px 5px lightblue;
+        border-radius: 5px;
+        box-shadow: 7px 4px 31px -7px rgba(0,0,0,0.49);
+        -webkit-box-shadow: 7px 4px 31px -7px rgba(0,0,0,0.49);
+        -moz-box-shadow: 7px 4px 31px -7px rgba(0,0,0,0.49);
         border-bottom: 1px solid lightblue;
     }
     
